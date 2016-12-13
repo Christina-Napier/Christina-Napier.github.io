@@ -3,7 +3,8 @@ published: true
 title: HolisticInfoSec Steganography Challenge
 layout: post
 ---
-Little Twitter Steg Challenge.
+
+<p>Little Twitter Steg Challenge.</p>
 
 <p>So it was a late winter Monday night,
 whilst perusing twitter I seen something that caught my eye.</p>
@@ -12,7 +13,7 @@ whilst perusing twitter I seen something that caught my eye.</p>
 posting about steganography tools, upon reading down, I seen there was a challenge.
 A challenge you say?!</p>
 
-<p><img width=602 height=243 id="Picture 1" src="img/image001.png"></p>
+<p><img width=602 height=243 id="Picture 1" src="https://github.com/Christina-Napier/Christina-Napier.github.io/blob/master/img/image001.png"></p>
 
 <p>Torn between reading a book to
 fall asleep, watching youtube videos or getting back out of bed to get my leet
@@ -34,9 +35,9 @@ and the image as per Russ�s blog it was then onto decoding.</p>
 
 <p>Image:</p>
 
-<p><img border=0 width=602 height=268 id="Picture 2" src="img/image002.png"></p>
+<p><img border=0 width=602 height=268 id="Picture 2" src="https://github.com/Christina-Napier/Christina-Napier.github.io/blob/master/img/image002.png"></p>
 
-<p><img width=115 height=157 src="img/image003.jpg" align=left hspace=12></p>
+<p><img width=115 height=157 src="https://github.com/Christina-Napier/Christina-Napier.github.io/blob/master/img/image003.jpg" align=left hspace=12></p>
 
 <p>Decoded the image using the
 codeplex tool.</p>
@@ -63,10 +64,10 @@ granted whats hidden away encoded.</p>
 
 <p>My starting point:</p>
 
-<p><img border=0 width=601 height=65 id="Picture 6" src="img/image004.jpg"></p>
+<p><img border=0 width=601 height=65 id="Picture 6" src="https://github.com/Christina-Napier/Christina-Napier.github.io/blob/master/img/image004.jpg"></p>
 
 <p>Ok so I couldn�t run the program, what happens when I try to
-debug it. I finally had an output. <img border=0 width=602 height=63 id="Picture 7" src="img/image005.jpg"></p>
+debug it. I finally had an output. <img border=0 width=602 height=63 id="Picture 7" src="https://github.com/Christina-Napier/Christina-Napier.github.io/blob/master/img/image005.jpg"></p>
 
 <p>Now since I am not a big user of
 power shell I originally thought the output below to be in reference to something
@@ -87,7 +88,7 @@ the lines of inception here. </p>
 
 <p>So I tried that also in a hex
 editor and checked the file sigs just in case. 
-<img border=0 width=287 height=136 id="Picture 8" src="img/image006.jpg"></p>
+<img border=0 width=287 height=136 id="Picture 8" src="https://github.com/Christina-Napier/Christina-Napier.github.io/blob/master/img/image006.jpg"></p>
 
 <p>&nbsp;</p>
 
@@ -108,19 +109,19 @@ from there.</p>
 <p>So back onto my VM I adapted the
 permissions and ran the file. </p>
 
-<p><img border=0 width=598 height=43 id="Picture 5" src="img/image007.jpg"></p>
+<p><img border=0 width=598 height=43 id="Picture 5" src="https://github.com/Christina-Napier/Christina-Napier.github.io/blob/master/img/image007.jpg"></p>
 
 <p>Once again I was presented with
 some more errors, however these errors helped me identify some of the strings
 within the output. I was starting to think this VM really doesn�t like me.
 Running the program it just seem to hang and throw error output. </p>
 
-<p><img border=0 width=590 height=111 id="Picture 9" src="img/image008.jpg" alt="https://scontent-lhr3-1.xx.fbcdn.net/v/t31.0-8/15493313_1130018787119338_1364822181189725682_o.jpg?oh=1e1b2a7ebb00d09f0bc6e81347a9cabd&amp;oe=58B8A647"></p>
+<p><img border=0 width=590 height=111 id="Picture 9" src="https://github.com/Christina-Napier/Christina-Napier.github.io/blob/master/img/image008.jpg" alt="https://scontent-lhr3-1.xx.fbcdn.net/v/t31.0-8/15493313_1130018787119338_1364822181189725682_o.jpg?oh=1e1b2a7ebb00d09f0bc6e81347a9cabd&amp;oe=58B8A647"></p>
 
 <p>Reading through I could see now a
 different base64 string and also later in the file a bit.ly link</p>
 
-<p><img width=602 height=65 src="img/image009.jpg" align=left hspace=12 alt="https://scontent-lhr3-1.xx.fbcdn.net/v/t31.0-8/15541078_1130018737119343_6405784254145181752_o.jpg?oh=ca25bac0d6a6bf43c04657f125341287&amp;oe=58E76F10"><br
+<p><img width=602 height=65 src="https://github.com/Christina-Napier/Christina-Napier.github.io/blob/master/img/image009.jpg" align=left hspace=12 alt="https://scontent-lhr3-1.xx.fbcdn.net/v/t31.0-8/15541078_1130018737119343_6405784254145181752_o.jpg?oh=ca25bac0d6a6bf43c04657f125341287&amp;oe=58E76F10"><br
 clear=all>
 Great I was getting closer to a resolution at this point. �</p>
 
@@ -133,7 +134,7 @@ href="http://stackoverflow.com/questions/18726418/decoding-base64-with-powershel
 <p>ran the script and came out with
 the following:</p>
 
-<p><img border=0 width=574 height=103 id="Picture 11" src="img/image010.jpg"></p>
+<p><img border=0 width=574 height=103 id="Picture 11" src="https://github.com/Christina-Napier/Christina-Napier.github.io/blob/master/img/image010.jpg"></p>
 
 <p>From this I didn�t get much, I�m
 kinda thinking that I�m either doing something wrong here investigating using
@@ -146,14 +147,14 @@ encoding/decoding works on the powershell front. </p>
 
 <p>And now on to the bit.ly link :</p>
 
-<p><img border=0 width=602 height=111 id="Picture 14" src="img/image011.jpg" alt="https://scontent-lhr3-1.xx.fbcdn.net/v/t31.0-8/15392894_1130018887119328_4485815344930921095_o.jpg?oh=abe66abf5d8d129f3e0ceaf951e24140&amp;oe=58AF787B"></p>
+<p><img border=0 width=602 height=111 id="Picture 14" src="https://github.com/Christina-Napier/Christina-Napier.github.io/blob/master/img/image011.jpg" alt="https://scontent-lhr3-1.xx.fbcdn.net/v/t31.0-8/15392894_1130018887119328_4485815344930921095_o.jpg?oh=abe66abf5d8d129f3e0ceaf951e24140&amp;oe=58AF787B"></p>
 
 <p>The bit.ly link, http://bit.ly/e0Mw9w I followed the link
 and was presented with the following link <a href="http://www.leeholmes.com/projects/ps_html5/Invoke-PSHtml5.ps1">http://www.leeholmes.com/projects/ps_html5/Invoke-PSHtml5.ps1</a>
 I could quite clearly see that this was another powershell file.</p>
 
 <p><img border=0 width=601 height=268 id="Picture 12"
-src="img/image012.jpg"></p>
+src="https://github.com/Christina-Napier/Christina-Napier.github.io/blob/master/img/image012.jpg"></p>
 
 <p>I could see from the comments the
 following: </p>
@@ -170,7 +171,8 @@ upon this script in order to run. Once it had hit this end I guess it failed.</p
 was the final product..</p>
 
 <p>Being Rick Rolled via powershell!<img border=0 width=597 height=188 id="Picture 13"
-src="img/image013.jpg"></p>
+src="https://github.com/Christina-Napier/Christina-Napier.github.io/blob/master/img/image013.jpg"></p>
 
 <p>So now I have a rick rolled
 powershell that pops up every time I open it </p>
+
