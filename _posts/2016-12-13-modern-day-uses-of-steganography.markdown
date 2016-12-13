@@ -2,6 +2,7 @@
 published: true
 title: Modern Day Uses of Steganography
 layout: post
+permalink: Modern Day Uses of Steganography
 ---
 <div class ="blog-css">
 <p style="text-align: justify;"><strong>Modern Day Uses of Steganography</strong></p>
@@ -44,5 +45,4 @@ layout: post
 <p style="text-align: justify;"><br />Some other malware variants that have been found are: ZeusVM: which utilises hiding malware configuration inside JPG images, VAWTRAK hides configuration file in a remote favicon image file, FakeReg hides malware settings in the app icon. However it isn&rsquo;t just images that are being used an example is VBKlip hides data within the HTTP protocol targeting specifically Polish bank accounts. Obfuscation of activities here is a key ability.</p>
 <p style="text-align: justify;">To give an insight as to the impact of such malware, one of the oldest, popular infiltrations is the case of Operation Shady Rat which was made notable by Mcafee in 2011.</p>
 <p style="text-align: justify;">This is featured in the next blog article <strong>Operation Shady Rat</strong></p>
-</section>
 </div>
