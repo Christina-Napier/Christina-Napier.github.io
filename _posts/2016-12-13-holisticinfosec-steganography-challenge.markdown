@@ -1,9 +1,9 @@
 ---
 published: true
-title: @HolisticInfoSec Steganography Challenge
+title: HolisticInfoSec Steganography Challenge
 layout: post
 ---
-<p>Little Twitter Steg Challenge.</p>
+Little Twitter Steg Challenge.
 
 <p>So it was a late winter Monday night,
 whilst perusing twitter I seen something that caught my eye.</p>
@@ -174,4 +174,3 @@ src="img/image013.jpg"></p>
 
 <p>So now I have a rick rolled
 powershell that pops up every time I open it </p>
-
